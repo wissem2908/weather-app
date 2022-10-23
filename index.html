@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="header">
+        <h1>
+            WEATHER APP
+        </h1>
+        <div>
+            <input type="text" id="input" placeholder="Enter city name..."/>
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <main>
+        <div class="weather">
+            <h2 id="city"></h2>
+            <div class="temp-box">
+                <img src="img/wether.png" id="img" />
+                <p id="temperature"></p>
+            </div>
+            <span id="clouds"></span>
+        </div>
+        <div class="divider1"></div>
+
+        <div class="forecastH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+            </div>
+        </div>
+    </main>
+    <div class="forecstD">
+        <div class="divider2">
+
+        </div>
+        <p class="cast-header">Next 4 Days Forecast</p>
+        <div class="weekF">
+         
+         
+           
+           
+        </div>
+
+    </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+<script src="js/main.js" ></script>
+</html>
