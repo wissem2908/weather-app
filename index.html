@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -17,33 +19,31 @@
             <button id="search">Search</button>
         </div>
     </div>
-    <main>
-        <div class="weather">
-            <h2 id="city"></h2>
-            <div class="temp-box">
-                <img src="img/wether.png" id="img" />
-                <p id="temperature"></p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="weather">
+                    <h2 id="city"></h2>
+                    <div class="temp-box">
+                        <img src="img/wether.png" id="img" />
+                        <p id="temperature"></p>
+                    </div>
+                    <span id="clouds"></span>
+                </div>
             </div>
-            <span id="clouds"></span>
-        </div>
-        <div class="divider1"></div>
-
-        <div class="forecastH">
-            <p class="cast-header">Upcoming forecast</p>
-            <div class="templist">
+            <div class="col-lg-6">
+                <div class="forecastH">
+                    <p class="cast-header">Upcoming forecast</p>
+                    <div class="templist ">
+                    </div>
+                    </div>
             </div>
-        </div>
-    </main>
+            </div>
+            </div>
     <div class="forecstD">
-        <div class="divider2">
-
-        </div>
+        <div class="divider2"></div>
         <p class="cast-header">Next 4 Days Forecast</p>
-        <div class="weekF">
-         
-         
-           
-           
+        <div class="weekF row">
         </div>
 
     </div>

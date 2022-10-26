@@ -42,14 +42,7 @@ body{
     cursor:pointer;
     border:none;
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr 5px 1fr;
-    grid-column-gap: 25px ;
-    align-items: center;
-    margin:0 50px;
-    color: #ccc;
-}
+
 .weather{
     text-align: center;
     color:#fff;
@@ -122,10 +115,6 @@ main{
     margin:0 auto;
 }
 .forecstD{
-    margin:20px 50px;
+margin: 20px 50px;
     color:aliceblue;
-}
-.weekF{
-    display: grid;
-    grid-template-columns:repeat(4,1fr) ;
 }
